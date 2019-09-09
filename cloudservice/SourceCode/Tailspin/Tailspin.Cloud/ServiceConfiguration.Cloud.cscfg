@@ -3,15 +3,15 @@
   <Role name="Tailspin.Web">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="DataConnectionString" value="DefaultEndpointsProtocol=https;AccountName=YourStorageAccount;AccountKey=YourPrimaryAccessKey" />
+      <Setting name="DataConnectionString" value="DefaultEndpointsProtocol=https;AccountName=impowershell;AccountKey=thd+s54EJ9mHqwnDSR+H1oaD1eE/wXfhXaI4CgxhE3DQniPbNOgAckjN3U48/m9e4TKOZzhMbevhCJs0uEfLdA==;EndpointSuffix=core.windows.net" />
       <Setting name="PublicSurveyWebsiteUrl" value="http://127.0.0.1:81" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=YourStorageAccount;AccountKey=YourPrimaryAccessKey" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=impowershell;AccountKey=thd+s54EJ9mHqwnDSR+H1oaD1eE/wXfhXaI4CgxhE3DQniPbNOgAckjN3U48/m9e4TKOZzhMbevhCJs0uEfLdA==;EndpointSuffix=core.windows.net" />
       <Setting name="TraceEventTypeFilter" value="Information" />
       <Setting name="ExtensionsPath" value=".\Bin" />
       <Setting name="RedisCacheConnectionString" value="YourRedisAccount.redis.cache.windows.net:6380,password=YourPrimaryAccessKey,ssl=True,abortConnect=False" />
-      <Setting name="AzureADClientId" value="" />
-      <Setting name="AzureADTenant" value="" />
-      <Setting name="AzureADTenantId" value="" />
+      <Setting name="AzureADClientId" value="2a43e9db-8721-4ddd-8c1c-5200a53133f0" />
+      <Setting name="AzureADTenant" value="snp.com" />
+      <Setting name="AzureADTenantId" value="30bf9f37-d550-4878-9494-1041656caf27" />
     </ConfigurationSettings>
     <Certificates>
       <Certificate name="PoltergeistSecretStore" thumbprint="f54701bd5d320c2316031b8a914139652176fe5c" thumbprintAlgorithm="sha1" />
@@ -20,8 +20,8 @@
   <Role name="Tailspin.Web.Survey.Public">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="DataConnectionString" value="DefaultEndpointsProtocol=https;AccountName=YourStorageAccount;AccountKey=YourPrimaryAccessKey" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=YourStorageAccount;AccountKey=Ol6w547AwVJfuspjxoPIVcsvufZCJF1ucwYIsWWL4SMlbkPTpc/H+zmqE7HJHFzOtrP8g/VILiU1UxEVQAdLRA==" />
+      <Setting name="DataConnectionString" value="DefaultEndpointsProtocol=https;AccountName=impowershell;AccountKey=thd+s54EJ9mHqwnDSR+H1oaD1eE/wXfhXaI4CgxhE3DQniPbNOgAckjN3U48/m9e4TKOZzhMbevhCJs0uEfLdA==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=impowershell;AccountKey=thd+s54EJ9mHqwnDSR+H1oaD1eE/wXfhXaI4CgxhE3DQniPbNOgAckjN3U48/m9e4TKOZzhMbevhCJs0uEfLdA==" />
       <Setting name="TraceEventTypeFilter" value="Information" />
       <Setting name="RedisCacheConnectionString" value="YourRedisAccount.redis.cache.windows.net:6380,password=YourPrimaryAccessKey,ssl=True,abortConnect=False" />
     </ConfigurationSettings>
@@ -29,8 +29,8 @@
   <Role name="Tailspin.Workers.Surveys">
     <Instances count="2" />
     <ConfigurationSettings>
-      <Setting name="DataConnectionString" value="DefaultEndpointsProtocol=https;AccountName=YourStorageAccount;AccountKey=YourPrimaryAccessKey" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=YourStorageAccount;AccountKey=YourPrimaryAccessKey" />
+      <Setting name="DataConnectionString" value="DefaultEndpointsProtocol=https;AccountName=impowershell;AccountKey=thd+s54EJ9mHqwnDSR+H1oaD1eE/wXfhXaI4CgxhE3DQniPbNOgAckjN3U48/m9e4TKOZzhMbevhCJs0uEfLdA==;EndpointSuffix=core.windows.net" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=impowershell;AccountKey=thd+s54EJ9mHqwnDSR+H1oaD1eE/wXfhXaI4CgxhE3DQniPbNOgAckjN3U48/m9e4TKOZzhMbevhCJs0uEfLdA==;EndpointSuffix=core.windows.net" />
       <Setting name="TraceEventTypeFilter" value="Information" />
     </ConfigurationSettings>
   </Role>
